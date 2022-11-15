@@ -1,0 +1,117 @@
+{
+  "createdAt": 1668516258173,
+  "updatedAt": 1668516258173,
+  "deletedAt": 0,
+  "createdFirstAt": 1668516258173,
+  "id": "adminlogintype",
+  "name": "AdminLoginType",
+  "slug": "adminlogintype",
+  "operationRelativeTypescriptFilePath": "src/types.ts",
+  "hasGeneric": false,
+  "isExported": true,
+  "rawText": "\n\nexport interface AdminLoginType {\n  name: string;\n  email?: string;\n  /**\n   * mobile phone number\n   */\n  phone?: string;\n  password: string;\n  repeatPassword: string;\n  createdAt: number;\n  updatedAt: number;\n}",
+  "extensions": [],
+  "isOperationIndex": false,
+  "description": "",
+  "isDbModel": false,
+  "commentsInside": [],
+  "type": {
+    "typeDefinition": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string",
+          "description": "mobile phone number"
+        },
+        "password": {
+          "type": "string"
+        },
+        "repeatPassword": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "number"
+        },
+        "updatedAt": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "name",
+        "password",
+        "repeatPassword",
+        "createdAt",
+        "updatedAt"
+      ],
+      "additionalProperties": false
+    },
+    "simplifiedSchema": {
+      "properties": [
+        {
+          "name": "name",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "email",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "phone",
+          "required": false,
+          "schema": {
+            "fullComment": "mobile phone number",
+            "type": "string"
+          }
+        },
+        {
+          "name": "password",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "repeatPassword",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "createdAt",
+          "required": true,
+          "schema": {
+            "type": "number"
+          }
+        },
+        {
+          "name": "updatedAt",
+          "required": true,
+          "schema": {
+            "type": "number"
+          }
+        }
+      ],
+      "type": "object"
+    },
+    "typeCoverage": 0,
+    "rawType": "AdminLoginType",
+    "isArray": false,
+    "isEnum": false,
+    "isEnumLiteral": false,
+    "isObject": false,
+    "isPrimitive": false
+  }
+}

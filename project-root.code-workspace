@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "json.schemas": [
+      {
+        "fileMatch": [
+          "/db/jeep-types.json"
+        ],
+        "url": "./schemas/jeep-types.schema.json"
+      },
+      {
+        "fileMatch": [
+          "/db/location-types.json"
+        ],
+        "url": "./schemas/location-types.schema.json"
+      }
+    ]
+  }
+}

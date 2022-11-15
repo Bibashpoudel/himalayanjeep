@@ -1,0 +1,578 @@
+[
+  {
+    "createdAt": 1668513000422,
+    "updatedAt": 1668513000422,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513000422,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": 0
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -2
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": 0
+      },
+      {
+        "label": "function",
+        "durationMs": -77
+      }
+    ],
+    "id": "dzucbykhlsbshublbtthblhn"
+  },
+  {
+    "createdAt": 1668513006158,
+    "updatedAt": 1668513006158,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513006158,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": 0
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -1
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": 0
+      },
+      {
+        "label": "function",
+        "durationMs": -68
+      }
+    ],
+    "id": "fshxdglvlhhprplpnxevfdiv"
+  },
+  {
+    "createdAt": 1668513223498,
+    "updatedAt": 1668513223498,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513223498,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": -1
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -2
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": -1
+      },
+      {
+        "label": "function",
+        "durationMs": -88
+      }
+    ],
+    "id": "mnriztnojkukyvrixybuzifn"
+  },
+  {
+    "createdAt": 1668513229308,
+    "updatedAt": 1668513229308,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513229308,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": 0
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -1
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": 0
+      },
+      {
+        "label": "function",
+        "durationMs": -84
+      }
+    ],
+    "id": "beethfzuvncqpxygsshibpqi"
+  },
+  {
+    "createdAt": 1668513232333,
+    "updatedAt": 1668513232333,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513232333,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": 0
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -1
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": 0
+      },
+      {
+        "label": "function",
+        "durationMs": -65
+      }
+    ],
+    "id": "ifysxvfivdsarosuqfogjlck"
+  },
+  {
+    "createdAt": 1668513233479,
+    "updatedAt": 1668513233479,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513233479,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": 0
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -1
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": 0
+      },
+      {
+        "label": "function",
+        "durationMs": -59
+      }
+    ],
+    "id": "jwvzsnzhxdrjoardgsemcdbl"
+  },
+  {
+    "createdAt": 1668513235849,
+    "updatedAt": 1668513235849,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513235849,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": 0
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -3
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": 0
+      },
+      {
+        "label": "function",
+        "durationMs": -75
+      }
+    ],
+    "id": "fqljjrfutyemwkojbjvbllpl"
+  },
+  {
+    "createdAt": 1668513237144,
+    "updatedAt": 1668513237144,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513237144,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": 0
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -1
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": 0
+      },
+      {
+        "label": "function",
+        "durationMs": -58
+      }
+    ],
+    "id": "pywvdrrbmqalcftjybvgwpvz"
+  },
+  {
+    "createdAt": 1668513239915,
+    "updatedAt": 1668513239915,
+    "deletedAt": 0,
+    "createdFirstAt": 1668513239915,
+    "functionName": "getPublicJeeps",
+    "tsFunctionId": "ructmbbvoofrtqgoxtpwrqtl",
+    "inputParameters": [],
+    "isExample": false,
+    "isTest": false,
+    "isResultFromCache": false,
+    "output": {
+      "publicJeeps": [
+        {
+          "amountLuggageUnitsLeft": 3,
+          "amountSeatsLeft": 17,
+          "createdAt": 1667400046692,
+          "id": "dpjqdcosllvnlposinmvalut",
+          "name": "kjsdlkfjdsk",
+          "note": "kjsfdlkjsdlksjf",
+          "updatedAt": 1667400046692,
+          "email": "wijnand@karsens.com",
+          "phone": "ooo"
+        },
+        {
+          "amountLuggageUnitsLeft": 0,
+          "amountSeatsLeft": 0,
+          "createdAt": 1667400524905,
+          "id": "hymluxpxcclsoyotyesphdow",
+          "name": "Test 3",
+          "note": "",
+          "updatedAt": 1667400524905,
+          "email": "test@test.test"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "label": "upsertDevice",
+        "durationMs": 0
+      },
+      {
+        "label": "getTsFunction",
+        "durationMs": -1
+      },
+      {
+        "label": "auth",
+        "durationMs": 0
+      },
+      {
+        "label": "cacheLookup",
+        "durationMs": 0
+      },
+      {
+        "label": "inputValidation",
+        "durationMs": 0
+      },
+      {
+        "label": "function",
+        "durationMs": -61
+      }
+    ],
+    "id": "sbsvscvfqkibuvzfydropjbq"
+  }
+]
