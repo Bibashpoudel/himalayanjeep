@@ -1,8 +1,8 @@
 {
-  "createdAt": 1668005995727,
-  "updatedAt": 1668005995727,
+  "createdAt": 1669723225590,
+  "updatedAt": 1669723225590,
   "deletedAt": 0,
-  "createdFirstAt": 1668005995727,
+  "createdFirstAt": 1669723225590,
   "id": "namedparameterstypeof-getmyjeep",
   "name": "NamedParameters<typeof getMyJeep>",
   "slug": "namedparameterstypeof-getmyjeep",

@@ -8,21 +8,9 @@ himalayajeep-functions (node operation)
 
 # Internal
 
-<details><summary>Show internal (10)</summary>
+<details><summary>Show internal (11)</summary>
   
-  # adminLogin()
-
-
-
-
-| Input      |    |    |
-| ---------- | -- | -- |
-| - | | |
-| **Output** |    |    |
-
-
-
-## driverLogin()
+  # driverLogin()
 
 login form for the driver to login
 
@@ -46,11 +34,34 @@ Driver signup
 
 
 
+## earthDistance()
+
+/**
+ * returns the distance between two places (not very precise but it's very efficient)
+ */
+
+
+| Input      |    |    |
+| ---------- | -- | -- |
+| lat1 | number |  |,| long1 | number |  |,| lat2 | number |  |,| long2 | number |  |,| response (optional) | m / km |  |
+| **Output** |    |    |
+
+
+
 ## getMyJeep()
 
 | Input      |    |    |
 | ---------- | -- | -- |
 | loginToken | string |  |
+| **Output** |    |    |
+
+
+
+## getPublicJeeps()
+
+| Input      |    |    |
+| ---------- | -- | -- |
+| position (optional) | `Position` |  |
 | **Output** |    |    |
 
 
@@ -64,8 +75,6 @@ Driver signup
 
 
 
-## 📄 adminLogin (exported const)
-
 ## 📄 driverLogin (exported const)
 
 login form for the driver to login
@@ -77,6 +86,8 @@ Driver signup
 
 
 ## 📄 getMyJeep (exported const)
+
+## 📄 getPublicJeeps (exported const)
 
 ## 📄 updateMyProfile (exported const)
 

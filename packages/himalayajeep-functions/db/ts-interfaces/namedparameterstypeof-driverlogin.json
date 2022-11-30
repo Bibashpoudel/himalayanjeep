@@ -1,8 +1,8 @@
 {
-  "createdAt": 1668005990780,
-  "updatedAt": 1668005990780,
+  "createdAt": 1669723222385,
+  "updatedAt": 1669723222385,
   "deletedAt": 0,
-  "createdFirstAt": 1668005990780,
+  "createdFirstAt": 1669723222385,
   "id": "namedparameterstypeof-driverlogin",
   "name": "NamedParameters<typeof driverLogin>",
   "slug": "namedparameterstypeof-driverlogin",

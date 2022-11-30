@@ -1,5 +1,6 @@
 export const keys = [ "driverLogin",
 "driverSignup",
+"earthDistance",
 "getMyJeep",
 "getPublicJeeps",
 "updateMyProfile",

@@ -1,5 +1,6 @@
 export const functionApiKeys = [ "driverLogin",
 "driverSignup",
+"earthDistance",
 "getMyJeep",
 "getPublicJeeps",
 "updateMyProfile",

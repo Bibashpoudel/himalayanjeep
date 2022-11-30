@@ -1,6 +1,6 @@
 {
   "createdAt": 1664530535128,
-  "updatedAt": 1668514006114,
+  "updatedAt": 1669723230939,
   "deletedAt": 0,
   "createdFirstAt": 1664530535128,
   "indexInteracesErrors": "[\"No schema/definitions found for /Users/bibashpoudel/Desktop/type/typerepo/packages/himalayajeep-functions/src/adminLogin.ts. Error: Error: A function whose declared type is neither 'void' nor 'any' must return a value.\\n\\nArgument of type '\\\"AdminLoginType\\\"' is not assignable to parameter of type 'keyof DbModels'.\"]",
@@ -16,7 +16,6 @@
   "slug": "himalayajeep-functions",
   "coreDependencies": [],
   "operationDependencies": [
-    "db",
     "db",
     "encryptPassword",
     "comparePassword",
@@ -44,8 +43,8 @@
     "codeSize": {
       "numberOfFiles": 7,
       "lines": 0,
-      "characters": 8229,
-      "bytes": 8229
+      "characters": 8265,
+      "bytes": 8265
     },
     "dataSize": {
       "numberOfFiles": 2,
@@ -56,12 +55,12 @@
     "textSize": {
       "numberOfFiles": 1,
       "lines": 0,
-      "characters": 1405,
-      "bytes": 1405
+      "characters": 1756,
+      "bytes": 1756
     },
     "size": {
-      "bytes": 12108,
-      "characters": 12108,
+      "bytes": 12495,
+      "characters": 12495,
       "lines": 0,
       "numberOfFiles": 10
     }

@@ -34,7 +34,6 @@ export interface AdminLoginType {
      */
     phone?: string;
     password: string;
-    repeatPassword: string;
     createdAt: number;
     updatedAt: number;
 }
@@ -100,5 +99,9 @@ export declare type MyJeepAdminTypes = {
 export interface JeepType extends MyJeepType, PublicJeepType, DefaultModelType {
     loginToken: string;
     encrypedPassword: string;
+}
+export interface AdminType extends AdminLoginType {
+    loginToken: string;
+    encrypedPasword: string;
 }
 //# sourceMappingURL=types.d.ts.map

@@ -54,6 +54,11 @@ export const Layout = ({
               isVisible: isLoggedIn,
             },
             {
+              path: "/admin/admin-login",
+              title: "📝 Admin Login",
+              isVisible: !isLoggedIn,
+            },
+            {
               onClick: () => setLoginToken(""),
               title: "🚪 Logout",
               isVisible: isLoggedIn,

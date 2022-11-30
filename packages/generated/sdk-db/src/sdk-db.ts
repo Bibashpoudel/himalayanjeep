@@ -51,266 +51,210 @@ import type { MediaCredentail } from "social-media-types";
 import type { MediaPost } from "social-media-types";
 import type { Postable } from "social-media-types";
 
-export type DbModels = {
-  admin
-  JeepType: JeepType;
-  LocationType: LocationType;
-  BundleConfig: BundleConfig;
-  Dataset: Dataset;
-  FunctionExecution: FunctionExecution;
-  OperationConfig: OperationConfig;
-  OperationIndex: OperationIndex;
-  PackageJson: PackageJson;
-  SocialMediaCallToAction: SocialMediaCallToAction;
-  TsBuildError: TsBuildError;
-  TsComment: TsComment;
-  TsConfig: TsConfig;
-  TsExport: TsExport;
-  TsFunction: TsFunction;
-  TsImport: TsImport;
-  TsInterface: TsInterface;
-  TsLintWarning: TsLintWarning;
-  TsVariable: TsVariable;
-  WebMarkdownFile: WebMarkdownFile;
-  WebsiteCallToAction: WebsiteCallToAction;
-  Address: Address;
-  Area: Area;
-  City: City;
-  Country: Country;
-  Location: Location;
-  KvmdWord: KvmdWord;
-  MarkdownWord: MarkdownWord;
-  NepaliEnglishTranslationMatrix: NepaliEnglishTranslationMatrix;
-  Statement: Statement;
-  TokiPonaMatrix: TokiPonaMatrix;
-  Translation: Translation;
-  Word: Word;
-  WordCategory: WordCategory;
-  WordMatrix: WordMatrix;
-  SlugModelType: SlugModelType;
-  Device: Device;
-  Group: Group;
-  PageVisit: PageVisit;
-  PeerMessage: PeerMessage;
-  Person: Person;
-  Persona: Persona;
-  PersonInformation: PersonInformation;
-  PersonInformationValue: PersonInformationValue;
-  PersonPlatformConnection: PersonPlatformConnection;
-  Platform: Platform;
-  Interest: Interest;
-  MediaChannel: MediaChannel;
-  MediaCredentail: MediaCredentail;
-  MediaPost: MediaPost;
-  Postable: Postable;
-};
-export const dbModelKeys = [
-  "JeepType",
-  "LocationType",
-  "BundleConfig",
-  "Dataset",
-  "FunctionExecution",
-  "OperationConfig",
-  "OperationIndex",
-  "PackageJson",
-  "SocialMediaCallToAction",
-  "TsBuildError",
-  "TsComment",
-  "TsConfig",
-  "TsExport",
-  "TsFunction",
-  "TsImport",
-  "TsInterface",
-  "TsLintWarning",
-  "TsVariable",
-  "WebMarkdownFile",
-  "WebsiteCallToAction",
-  "Address",
-  "Area",
-  "City",
-  "Country",
-  "Location",
-  "KvmdWord",
-  "MarkdownWord",
-  "NepaliEnglishTranslationMatrix",
-  "Statement",
-  "TokiPonaMatrix",
-  "Translation",
-  "Word",
-  "WordCategory",
-  "WordMatrix",
-  "SlugModelType",
-  "Device",
-  "Group",
-  "PageVisit",
-  "PeerMessage",
-  "Person",
-  "Persona",
-  "PersonInformation",
-  "PersonInformationValue",
-  "PersonPlatformConnection",
-  "Platform",
-  "Interest",
-  "MediaChannel",
-  "MediaCredentail",
-  "MediaPost",
-  "Postable",
-] as const;
+
+export type DbModels = { JeepType: JeepType,LocationType: LocationType,BundleConfig: BundleConfig,Dataset: Dataset,FunctionExecution: FunctionExecution,OperationConfig: OperationConfig,OperationIndex: OperationIndex,PackageJson: PackageJson,SocialMediaCallToAction: SocialMediaCallToAction,TsBuildError: TsBuildError,TsComment: TsComment,TsConfig: TsConfig,TsExport: TsExport,TsFunction: TsFunction,TsImport: TsImport,TsInterface: TsInterface,TsLintWarning: TsLintWarning,TsVariable: TsVariable,WebMarkdownFile: WebMarkdownFile,WebsiteCallToAction: WebsiteCallToAction,Address: Address,Area: Area,City: City,Country: Country,Location: Location,KvmdWord: KvmdWord,MarkdownWord: MarkdownWord,NepaliEnglishTranslationMatrix: NepaliEnglishTranslationMatrix,Statement: Statement,TokiPonaMatrix: TokiPonaMatrix,Translation: Translation,Word: Word,WordCategory: WordCategory,WordMatrix: WordMatrix,SlugModelType: SlugModelType,Device: Device,Group: Group,PageVisit: PageVisit,PeerMessage: PeerMessage,Person: Person,Persona: Persona,PersonInformation: PersonInformation,PersonInformationValue: PersonInformationValue,PersonPlatformConnection: PersonPlatformConnection,Platform: Platform,Interest: Interest,MediaChannel: MediaChannel,MediaCredentail: MediaCredentail,MediaPost: MediaPost,Postable: Postable };
+export const dbModelKeys = [ "JeepType","LocationType","BundleConfig","Dataset","FunctionExecution","OperationConfig","OperationIndex","PackageJson","SocialMediaCallToAction","TsBuildError","TsComment","TsConfig","TsExport","TsFunction","TsImport","TsInterface","TsLintWarning","TsVariable","WebMarkdownFile","WebsiteCallToAction","Address","Area","City","Country","Location","KvmdWord","MarkdownWord","NepaliEnglishTranslationMatrix","Statement","TokiPonaMatrix","Translation","Word","WordCategory","WordMatrix","SlugModelType","Device","Group","PageVisit","PeerMessage","Person","Persona","PersonInformation","PersonInformationValue","PersonPlatformConnection","Platform","Interest","MediaChannel","MediaCredentail","MediaPost","Postable" ] as const;
 export type DbModelEnum = typeof dbModelKeys[number];
 export const modelQueryConfig = {
-  JeepType: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  LocationType: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  BundleConfig: {
-    dbStorageMethod: "jsonSingle",
-  },
-  Dataset: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  FunctionExecution: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  OperationConfig: {
-    dbStorageMethod: "markdown",
-    operationRelativePath: "OPERATION.md",
-  },
-  OperationIndex: {
-    dbStorageMethod: "jsonSingle",
-    operationRelativePath: "db/operation-index.json",
-  },
-  PackageJson: {
-    dbStorageMethod: "jsonSingle",
-    operationRelativePath: "package.json",
-  },
-  SocialMediaCallToAction: {
-    dbStorageMethod: "markdown",
-  },
-  TsBuildError: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  TsComment: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  TsConfig: {
-    dbStorageMethod: "jsonSingle",
-    operationRelativePath: "tsconfig.json",
-  },
-  TsExport: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  TsFunction: {
-    dbStorageMethod: "jsonSingle",
-  },
-  TsImport: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  TsInterface: {
-    dbStorageMethod: "jsonSingle",
-  },
-  TsLintWarning: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  TsVariable: {
-    dbStorageMethod: "jsonSingle",
-  },
-  WebMarkdownFile: {
-    dbStorageMethod: "markdown",
-  },
-  WebsiteCallToAction: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Address: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Area: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  City: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Country: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Location: {
-    dbStorageMethod: "keyValueMarkdown",
-  },
-  KvmdWord: {
-    dbStorageMethod: "keyValueMarkdown",
-  },
-  MarkdownWord: {
-    dbStorageMethod: "markdown",
-  },
-  NepaliEnglishTranslationMatrix: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Statement: {
-    dbStorageMethod: "markdown",
-  },
-  TokiPonaMatrix: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Translation: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Word: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  WordCategory: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  WordMatrix: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  SlugModelType: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Device: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Group: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  PageVisit: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  PeerMessage: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Person: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Persona: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  PersonInformation: {
-    dbStorageMethod: "keyValueMarkdown",
-  },
-  PersonInformationValue: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  PersonPlatformConnection: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Platform: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Interest: {
-    dbStorageMethod: "keyValueMarkdown",
-  },
-  MediaChannel: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  MediaCredentail: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  MediaPost: {
-    dbStorageMethod: "jsonMultiple",
-  },
-  Postable: {
-    dbStorageMethod: "markdown",
-  },
-};
+    JeepType: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+LocationType: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+BundleConfig: {
+          dbStorageMethod: "jsonSingle",
+          
+        },
+Dataset: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+FunctionExecution: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+OperationConfig: {
+          dbStorageMethod: "markdown",
+          operationRelativePath: "OPERATION.md",
+        },
+OperationIndex: {
+          dbStorageMethod: "jsonSingle",
+          operationRelativePath: "db/operation-index.json",
+        },
+PackageJson: {
+          dbStorageMethod: "jsonSingle",
+          operationRelativePath: "package.json",
+        },
+SocialMediaCallToAction: {
+          dbStorageMethod: "markdown",
+          
+        },
+TsBuildError: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+TsComment: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+TsConfig: {
+          dbStorageMethod: "jsonSingle",
+          operationRelativePath: "tsconfig.json",
+        },
+TsExport: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+TsFunction: {
+          dbStorageMethod: "jsonSingle",
+          
+        },
+TsImport: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+TsInterface: {
+          dbStorageMethod: "jsonSingle",
+          
+        },
+TsLintWarning: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+TsVariable: {
+          dbStorageMethod: "jsonSingle",
+          
+        },
+WebMarkdownFile: {
+          dbStorageMethod: "markdown",
+          
+        },
+WebsiteCallToAction: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Address: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Area: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+City: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Country: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Location: {
+          dbStorageMethod: "keyValueMarkdown",
+          
+        },
+KvmdWord: {
+          dbStorageMethod: "keyValueMarkdown",
+          
+        },
+MarkdownWord: {
+          dbStorageMethod: "markdown",
+          
+        },
+NepaliEnglishTranslationMatrix: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Statement: {
+          dbStorageMethod: "markdown",
+          
+        },
+TokiPonaMatrix: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Translation: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Word: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+WordCategory: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+WordMatrix: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+SlugModelType: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Device: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Group: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+PageVisit: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+PeerMessage: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Person: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Persona: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+PersonInformation: {
+          dbStorageMethod: "keyValueMarkdown",
+          
+        },
+PersonInformationValue: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+PersonPlatformConnection: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Platform: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Interest: {
+          dbStorageMethod: "keyValueMarkdown",
+          
+        },
+MediaChannel: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+MediaCredentail: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+MediaPost: {
+          dbStorageMethod: "jsonMultiple",
+          
+        },
+Postable: {
+          dbStorageMethod: "markdown",
+          
+        }
+  };
 // THANK YOU

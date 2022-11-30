@@ -1,170 +1,146 @@
 [
   {
-    "createdAt": 1668513972148,
-    "updatedAt": 1668513972148,
+    "createdAt": 1669723185726,
+    "updatedAt": 1669723185726,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972148,
-    "name": "adminLogin",
-    "slug": "admin-login",
-    "operationRelativeTypescriptFilePath": "src/adminLogin.ts",
-    "comments": [],
-    "type": "value",
-    "id": "cojvbqeqqqlrzrkrfccpowid"
-  },
-  {
-    "createdAt": 1668513972148,
-    "updatedAt": 1668513972148,
-    "deletedAt": 0,
-    "createdFirstAt": 1668513972148,
+    "createdFirstAt": 1669723185726,
     "name": "driverLogin",
     "slug": "driver-login",
     "operationRelativeTypescriptFilePath": "src/driverLogin.ts",
     "comments": [],
     "type": "value",
-    "id": "mwlfhqwuwgkjuhznedbmwhbf"
+    "id": "kxahcjpdmqwfgjsbrrzcyvgx"
   },
   {
-    "createdAt": 1668513972148,
-    "updatedAt": 1668513972148,
+    "createdAt": 1669723185728,
+    "updatedAt": 1669723185728,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972148,
+    "createdFirstAt": 1669723185728,
     "name": "driverSignup",
     "slug": "driver-signup",
     "operationRelativeTypescriptFilePath": "src/driverSignup.ts",
     "comments": [],
     "type": "value",
-    "id": "heklpaaosqqbentccqfppdep"
+    "id": "tukooydxamivzkdqsrrlwpql"
   },
   {
-    "createdAt": 1668513972148,
-    "updatedAt": 1668513972148,
+    "createdAt": 1669723185728,
+    "updatedAt": 1669723185728,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972148,
+    "createdFirstAt": 1669723185728,
     "name": "earthDistance",
     "slug": "earth-distance",
     "operationRelativeTypescriptFilePath": "src/earthDistance.ts",
     "comments": [],
     "type": "value",
-    "id": "kqalizjkqgpptztksnnhmfcf"
+    "id": "fcikkqzgdqsirvlsjnooafzu"
   },
   {
-    "createdAt": 1668513972148,
-    "updatedAt": 1668513972148,
+    "createdAt": 1669723185728,
+    "updatedAt": 1669723185728,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972148,
+    "createdFirstAt": 1669723185728,
     "name": "getMyJeep",
     "slug": "get-my-jeep",
     "operationRelativeTypescriptFilePath": "src/getMyJeep.ts",
     "comments": [],
     "type": "value",
-    "id": "qmuzmrwzlqxbzhpyiltpgutn"
+    "id": "kkqispehnxrcyesmxjcqmeav"
   },
   {
-    "createdAt": 1668513972148,
-    "updatedAt": 1668513972148,
+    "createdAt": 1669723185728,
+    "updatedAt": 1669723185728,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972148,
+    "createdFirstAt": 1669723185728,
     "name": "getPublicJeeps",
     "slug": "get-public-jeeps",
     "operationRelativeTypescriptFilePath": "src/getPublicJeeps.ts",
     "comments": [],
     "type": "value",
-    "id": "fvogwqzxndbnhdzfmehqgsri"
+    "id": "mqpuzpmatzxshhfhpcolanuz"
   },
   {
-    "createdAt": 1668513972148,
-    "updatedAt": 1668513972148,
+    "createdAt": 1669723185729,
+    "updatedAt": 1669723185729,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972148,
-    "name": "adminLogin",
-    "slug": "admin-login",
-    "operationRelativeTypescriptFilePath": "src/index.ts",
-    "comments": [],
-    "type": "value",
-    "id": "gfqgtuqzijvvtsftfkmmljgf"
-  },
-  {
-    "createdAt": 1668513972149,
-    "updatedAt": 1668513972149,
-    "deletedAt": 0,
-    "createdFirstAt": 1668513972149,
+    "createdFirstAt": 1669723185729,
     "name": "driverLogin",
     "slug": "driver-login",
     "operationRelativeTypescriptFilePath": "src/index.ts",
     "comments": [],
     "type": "value",
-    "id": "wlvodyecutnracsogzwljjpw"
+    "id": "khtpjagcfxtxsfjaoxooszfy"
   },
   {
-    "createdAt": 1668513972149,
-    "updatedAt": 1668513972149,
+    "createdAt": 1669723185729,
+    "updatedAt": 1669723185729,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972149,
+    "createdFirstAt": 1669723185729,
     "name": "driverSignup",
     "slug": "driver-signup",
     "operationRelativeTypescriptFilePath": "src/index.ts",
     "comments": [],
     "type": "value",
-    "id": "tfhnfqmyjmfgqaqzwhrggmfv"
+    "id": "yzyjeqarwweazvuimgyiibqo"
   },
   {
-    "createdAt": 1668513972149,
-    "updatedAt": 1668513972149,
+    "createdAt": 1669723185729,
+    "updatedAt": 1669723185729,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972149,
+    "createdFirstAt": 1669723185729,
     "name": "earthDistance",
     "slug": "earth-distance",
     "operationRelativeTypescriptFilePath": "src/index.ts",
     "comments": [],
     "type": "value",
-    "id": "mdlloidgdqatrnccfpptkwxk"
+    "id": "egcqcacqyfnrdnskloguxwoq"
   },
   {
-    "createdAt": 1668513972149,
-    "updatedAt": 1668513972149,
+    "createdAt": 1669723185729,
+    "updatedAt": 1669723185729,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972149,
+    "createdFirstAt": 1669723185729,
     "name": "getMyJeep",
     "slug": "get-my-jeep",
     "operationRelativeTypescriptFilePath": "src/index.ts",
     "comments": [],
     "type": "value",
-    "id": "akfbqdcfaxrjrzzeiimnhpod"
+    "id": "kyebyhfcdrvdaocxrrsnkilw"
   },
   {
-    "createdAt": 1668513972149,
-    "updatedAt": 1668513972149,
+    "createdAt": 1669723185729,
+    "updatedAt": 1669723185729,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972149,
+    "createdFirstAt": 1669723185729,
     "name": "getPublicJeeps",
     "slug": "get-public-jeeps",
     "operationRelativeTypescriptFilePath": "src/index.ts",
     "comments": [],
     "type": "value",
-    "id": "pklqtwvgwrkkjgccixiodlae"
+    "id": "xfabjupooetknhtnjtbkuntm"
   },
   {
-    "createdAt": 1668513972149,
-    "updatedAt": 1668513972149,
+    "createdAt": 1669723185729,
+    "updatedAt": 1669723185729,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972149,
+    "createdFirstAt": 1669723185729,
     "name": "updateMyProfile",
     "slug": "update-my-profile",
     "operationRelativeTypescriptFilePath": "src/index.ts",
     "comments": [],
     "type": "value",
-    "id": "nmrndicorbgwjwmeqqxavjma"
+    "id": "hfbhjfyeogonzdrkzbducmms"
   },
   {
-    "createdAt": 1668513972149,
-    "updatedAt": 1668513972149,
+    "createdAt": 1669723185729,
+    "updatedAt": 1669723185729,
     "deletedAt": 0,
-    "createdFirstAt": 1668513972149,
+    "createdFirstAt": 1669723185729,
     "name": "updateMyProfile",
     "slug": "update-my-profile",
     "operationRelativeTypescriptFilePath": "src/updateMyProfile.ts",
     "comments": [],
     "type": "value",
-    "id": "jsifrcevocplnpwsmywrwfqf"
+    "id": "cnvjlzvncwvsgarlgsuznkwo"
   }
 ]

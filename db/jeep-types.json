@@ -31,5 +31,22 @@
     "encrypedPassword": "$2b$10$ItS7qltXMXGgENIl4jEIqeuAG/IPq8TTquv6vQBMKcBPKdEvROYY6",
     "slug": "test-3",
     "id": "hymluxpxcclsoyotyesphdow"
+  },
+  {
+    "createdAt": 1668519774873,
+    "updatedAt": 1668519774873,
+    "deletedAt": 0,
+    "createdFirstAt": 1668519774873,
+    "phone": "9863025214",
+    "name": "Bibash",
+    "email": "pdlbibash77@gmail.com",
+    "note": "one hours left ",
+    "amountLuggageUnitsLeft": 4,
+    "amountSeatsLeft": 10,
+    "isVerified": false,
+    "loginToken": "lYYyKwiPZOItAjRhvIwuDcldsJKTelna",
+    "encrypedPassword": "$2b$10$fL6Mz5YKQPxgvAnZ2oyEOu0Dhdr8nzFmD/NH9CM4c6nrLv2uTP19C",
+    "slug": "bibash",
+    "id": "pzfeoehtrfwvrmczwqszswns"
   }
 ]

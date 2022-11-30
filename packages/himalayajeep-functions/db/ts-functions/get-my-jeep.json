@@ -1,8 +1,8 @@
 {
-  "createdAt": 1668005995930,
-  "updatedAt": 1668005995930,
+  "createdAt": 1669723225655,
+  "updatedAt": 1669723225655,
   "deletedAt": 0,
-  "createdFirstAt": 1668005995930,
+  "createdFirstAt": 1669723225655,
   "publicAuthorization": [
     "read",
     "search"
@@ -30,7 +30,7 @@
   ],
   "description": "",
   "returnType": {
-    "rawType": "Promise<{ isSuccessful: boolean; message?: string | undefined; myJeep?: import(\"/Users/king/King/operations/niches/code-from-anywhere/bootcamp-operations/himalayajeep/himalayajeep-types/build/types\").MyJeepType | undefined; }>",
+    "rawType": "Promise<{ isSuccessful: boolean; message?: string | undefined; myJeep?: import(\"/Users/bibashpoudel/Desktop/newtype/typerepo/packages/himalayajeep-types/build/types\").MyJeepType | undefined; }>",
     "typeCoverage": 0,
     "isArray": false,
     "isEnum": false,
@@ -48,5 +48,5 @@
     "linesPerFile": 56,
     "numberOfFiles": 1
   },
-  "id": "lycqgddbfxtvwnhnxjkmlhie"
+  "id": "stlscgpztwzdhjvhdceixfkj"
 }

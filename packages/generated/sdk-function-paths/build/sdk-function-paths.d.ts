@@ -18,6 +18,7 @@ export declare const sdkFunctionPaths: {
     useUrl: string;
     driverLogin: string;
     driverSignup: string;
+    earthDistance: string;
     getMyJeep: string;
     getPublicJeeps: string;
     updateMyProfile: string;

@@ -4,6 +4,17 @@ export declare const operations: {
     "himalayajeep-web": string;
     "markdown-reader-web": string;
     "db-ui": string;
+    sdk: string;
+    "sdk-api": string;
+    "sdk-api-keys": string;
+    "sdk-db": string;
+    "sdk-env-private": string;
+    "sdk-env-public": string;
+    "sdk-function-paths": string;
+    "sdk-js": string;
+    "sdk-js-keys": string;
+    "sdk-keys": string;
+    "sdk-operations": string;
     "himalayajeep-functions": string;
     "himalayajeep-types": string;
     "himalayajeep-ui": string;

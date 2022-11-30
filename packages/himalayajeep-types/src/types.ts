@@ -37,7 +37,6 @@ export interface AdminLoginType {
    */
   phone?: string;
   password: string;
-  repeatPassword: string;
   createdAt: number;
   updatedAt: number;
 }

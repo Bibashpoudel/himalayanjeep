@@ -7,6 +7,8 @@ const { useGetPublicJeeps } = queries;
 export const JeepList: RWNPage = (props: MainPageProps) => {
   const publicJeepsQuery = useGetPublicJeeps();
 
+  console.log("data", publicJeepsQuery);
+
   return (
     <Layout pages={props.pages}>
       {publicJeepsQuery.data?.result?.publicJeeps.map((item) => {

@@ -6,6 +6,7 @@ import { MainPageProps, RWNPage } from "../types";
 import { RealApiReturnType } from "api-types";
 import { useAlert } from "react-with-native-alert";
 import { useStore } from "../store";
+import { useRouter } from "react-with-native-router";
 
 /**
  *
@@ -13,6 +14,7 @@ import { useStore } from "../store";
 export const JeepLogin: RWNPage = (props: MainPageProps) => {
   const alert = useAlert();
   const [loginToken, setLoginToken] = useStore("api.loginToken");
+  const router = useRouter();
   return (
     <Layout pages={props.pages}>
       <P>Login page</P>
@@ -30,6 +32,7 @@ export const JeepLogin: RWNPage = (props: MainPageProps) => {
 
           if (result.result?.loginToken) {
             setLoginToken(result.result?.loginToken);
+            router.push("/edit-profile");
           }
         }}
         hideResult

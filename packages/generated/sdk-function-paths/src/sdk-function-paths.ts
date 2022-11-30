@@ -18,6 +18,7 @@ export const sdkFunctionPaths = {
   "useUrl": "/packages/db-ui/db/ts-functions/use-url.json",
   "driverLogin": "/packages/himalayajeep-functions/db/ts-functions/driver-login.json",
   "driverSignup": "/packages/himalayajeep-functions/db/ts-functions/driver-signup.json",
+  "earthDistance": "/packages/himalayajeep-functions/db/ts-functions/earth-distance.json",
   "getMyJeep": "/packages/himalayajeep-functions/db/ts-functions/get-my-jeep.json",
   "getPublicJeeps": "/packages/himalayajeep-functions/db/ts-functions/get-public-jeeps.json",
   "updateMyProfile": "/packages/himalayajeep-functions/db/ts-functions/update-my-profile.json",

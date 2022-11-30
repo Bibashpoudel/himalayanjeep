@@ -1,8 +1,8 @@
 {
-  "createdAt": 1668005997351,
-  "updatedAt": 1668005997351,
+  "createdAt": 1669723227202,
+  "updatedAt": 1669723227202,
   "deletedAt": 0,
-  "createdFirstAt": 1668005997351,
+  "createdFirstAt": 1669723227202,
   "id": "namedparameterstypeof-updatemyprofile",
   "name": "NamedParameters<typeof updateMyProfile>",
   "slug": "namedparameterstypeof-updatemyprofile",

@@ -1,5 +1,6 @@
 import { driverLogin } from "himalayajeep-functions";
 import { driverSignup } from "himalayajeep-functions";
+import { earthDistance } from "himalayajeep-functions";
 import { getMyJeep } from "himalayajeep-functions";
 import { getPublicJeeps } from "himalayajeep-functions";
 import { updateMyProfile } from "himalayajeep-functions";
@@ -593,6 +594,7 @@ import { useCustomUrlStore } from "use-url-store";
 
 export const sdk = { driverLogin,
 driverSignup,
+earthDistance,
 getMyJeep,
 getPublicJeeps,
 updateMyProfile,

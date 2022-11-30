@@ -4,7 +4,8 @@ import { EditProfile } from "./pages/edit-profile";
 import { JeepList } from "./pages/jeep-list";
 import { JeepLogin } from "./pages/jeep-login";
 import { JeepView } from "./pages/jeep-view";
-
+import { IndexPageAdmin } from "./pages/admin/index";
+import { AdminLogin } from "./pages/admin/admin-login";
 import { PageType } from "./types";
 
 export const pagesObject = {
@@ -14,6 +15,8 @@ export const pagesObject = {
   JeepList,
   JeepLogin,
   JeepView,
+  IndexPageAdmin,
+  AdminLogin,
 };
 // based on this, a type is created for all page keys
 type PageKey = keyof typeof pagesObject;
